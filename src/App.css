@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.App {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-quote {
+  background-color: white;
+  width: min(80%, 400px);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px  0 #0003 ;
+}
+.quote-container {
+  display: flex;
+  gap: 25px;
+}
+
+.quote {
+  margin: 0;
+}
+.autor{
+  text-align: right;
+  font-size: 20px;
+  font-weight: 100;
+  font-style: bold;
+
+}
+.button-random {
+  width: 30px;
+  aspect-ratio: 1;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto ;
+  
+}
